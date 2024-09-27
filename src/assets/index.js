@@ -22,7 +22,7 @@ import python from "./tech/python.png";
 import android from "./tech/android.png";
 
 import dll from "./company/dll.png";
-import procoder from "./company/procoder.png";
+import ncrvoyix from "./company/ncrvoyix.png"
 import trends from "./company/trends.png";
 
 import newzup from "./newzup.png";
@@ -30,6 +30,8 @@ import memeit from "./memeit.png";
 import reboundtherapy from "./reboundtherapy.png";
 
 import harnoor from "./harnoor.png";
+import armin from "./armin.png"
+import melissa from "./melissa.png"
 
 export {
   logo,
@@ -54,10 +56,12 @@ export {
   kotlin,
   threejs,
   dll,
-  procoder,
+  ncrvoyix,
   trends,
   newzup,
   memeit,
   reboundtherapy,
-  harnoor
+  harnoor,
+  armin,
+  melissa
 };

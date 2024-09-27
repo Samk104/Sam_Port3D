@@ -15,7 +15,7 @@ import {
     firebase,
     matlab,
     python,
-    procoder,
+    ncrvoyix,
     trends,
     dll,
     reboundtherapy,
@@ -23,6 +23,8 @@ import {
     newzup,
     threejs,
     harnoor,
+    armin,
+    melissa,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +44,19 @@ import {
   
   const services = [
     {
-      title: "Mobile App Developer",
-      icon: mobile,
-    },
-    {
-      title: "Web Developer",
+      title: "Full Stack Web Development",
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "API Design",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Mobile App Development",
+      icon: mobile,
+    },
+    {
+      title: "Machine Learning",
       icon: creator,
     },
   ];
@@ -116,27 +118,28 @@ import {
   
   const experiences = [
     {
-      title: "Founder",
-      company_name: "Procoder",
-      icon: procoder,
-      iconBg: "#383E56",
-      date: "Mar 2020 - July 2022",
+      title: "Software Engineer Intern",
+      company_name: "NCR Voyix",
+      icon: ncrvoyix,
+      iconBg: "#482e91",
+      date: "May 2024 - Aug 2024",
       points: [
-        "Authored a platform to help students learn programming concepts with the aim of providing globally accessible education.",
-        "Launched free courses to help underprivileged students learn to program for free, with a focus on high-schoolers.",
-        "Helped more than 1500 students from over eight countries and received recognition for the free nature of the platform.",
+        "Developed a comprehensive loyalty demo application integrating NCR's Cloud APIs, utilizing 𝗡𝗲𝘅𝘁.𝗷𝘀, 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁, 𝗮𝗻𝗱 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦.",
+        "Successfully implemented Apple Pay and Google Wallet integrations, introducing new capabilities to the team and enhancing the application's functionality.",
+        "Implemented rigorous testing strategies including integration, end-to-end and unit tests, significantly improving code coverage and quality.The application was deployed on 𝗚𝗼𝗼𝗴𝗹𝗲 𝗖𝗹𝗼𝘂𝗱 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 utilizing Docker, Kubernetes (GKE), and GitHub Actions for CI/CD.",
+        "This interactive showcase of Voyix’s powerful APIs aims to reduce customer onboarding times (by up to 50%) , streamlining the process for support and onboarding teams and attracting potential clients by visually demonstrating API capabilities."
+       
       ],
     },
     {
-      title: "Tech Intern",
+      title: "Technology Intern",
       company_name: "DLL@GSU",
       icon: dll,
-      iconBg: "#383E56",
+      iconBg: "#125eab",
       date: "Oct 2021 - Present",
       points: [
-        "Empowered students, staff and faculty by designing and delivering skill-building workshops spanning web development, object-oriented programming, problem-solving, and graphic design.",
-        "Contributed to increased interest and participation of students in workshops- 35% more attendees in workshops.",
-        
+        "Spearheaded the design and delivery of beginner friendly programming workshops in Java, Python, and web development (HTML, CSS, JS) for university students and staff, showcasing technical expertise and curriculum development skills.",
+        "Implemented innovative engagement strategies, resulting in a 𝟲𝟬% 𝗶𝗻𝗰𝗿𝗲𝗮𝘀𝗲 in attendee retention and participation, demonstrating strong leadership and ability to drive measurable results in educational technology initiatives.",
       ],
     },
     {
@@ -144,11 +147,11 @@ import {
       company_name: "TReNDS",
       icon: trends,
       iconBg: "#E6DEDD",
-      date: "Aug 2022 - Present",
+      date: "Aug 2022 - Aug 2024",
       points: [
-        "Utilized advanced ICA technique to analyze a multi-site dataset, demonstrating that motion-related signals, often discarded during pre-processing, contain important brain functional networks such as the default mode network.",
-        "Currently Investigating the interplay of brain functional networks and motion-related signals in schizophrenia for novel treatment avenues. Both projects involve millions of megabytes of fMRI data.",
-       
+        "Applied advanced 𝗺𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 algorithms to analyze multi-site brain imaging datasets, revealing that motion-related signals, often discarded in traditional methods, contain important functional networks.",
+        "Led research as first author exploring the intricate relationship between brain functional networks and motion-related signals in schizophrenia. Analyzed extensive fMRI datasets to identify potential novel treatment pathways.",
+        "These research efforts culminated in a paper presented at the 𝟰𝟲𝘁𝗵 𝗔𝗻𝗻𝘂𝗮𝗹 𝗜𝗻𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗖𝗼𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝗼𝗳 𝘁𝗵𝗲 𝗜𝗘𝗘𝗘 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗶𝗻 𝗠𝗲𝗱𝗶𝗰𝗶𝗻𝗲 𝗮𝗻𝗱 𝗕𝗶𝗼𝗹𝗼𝗴𝘆 𝗦𝗼𝗰𝗶𝗲𝘁𝘆 (𝗘𝗠𝗕𝗖), highlighting the impact, innovation and contribution of our work in the field of neuroimaging.",
       ],
     },
   ];
@@ -162,7 +165,7 @@ import {
       name: "Dr. Armin Iraji",
       designation: "Assistant Professor of CS",
       company: "Georgia State University",
-      image: "https://cas.gsu.edu/files/2022/08/Armin_Iraji_300x300.jpg",
+      image: armin,
     },
     {
       testimonial:
@@ -170,7 +173,7 @@ import {
       name: "L.M. Spencer",
       designation: "Tech Training Specialist",
       company: "Georgia State University",
-      image: "https://cetl.gsu.edu/files/2016/07/20160906SS_Laura_Spencer_009PSFC-300x420.jpg",
+      image: melissa,
     },   
     {
       testimonial:
