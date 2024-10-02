@@ -47,13 +47,14 @@ const About = () => {
       variants={fadeIn("","",0.1,1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
     >
-     An astute problem-solving virtuoso, I bring over half a decade of experience in the realm of object-oriented programming,
-     particularly excelling in languages such as Java. My fervor for mobile app development has been the driving force behind my 
-     distinguished portfolio of Android projects.
-     My passion lies in uncovering the possibilities of machine learning, and I&apos;m enthusiastic about delving into this 
-    transformative technology to contribute fresh insights and solutions.As an insatiably curious learner, I thrive on embracing new 
-    challenges and maintaining an avant-garde edge in the ever-evolving tech landscape making me an ideal candidate for companies seeking 
-    innovative and adaptable software developers.
+     Innovative computer science student with a stellar academic performance, merging advanced technical expertise with substantial 
+     research experience and over two years of hands-on software development. From crafting microservices-based apps in the corporate 
+     world to pioneering fMRI analysis techniques in academia, I've consistently demonstrated a knack for rapid learning and 
+     problem-solving across diverse domains. My projects, including a high-performance e-commerce platform that significantly boosted 
+     order volume. Recognized globally for tech talent and armed with a comprehensive 
+     skill set in programming languages, frameworks, and cloud technologies, I'm eager to bring fresh ideas and efficiency to software 
+     engineering roles. My proven track record, adaptability, and drive to create impactful solutions make me a valuable asset to 
+     tech teams.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
