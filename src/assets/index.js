@@ -10,7 +10,7 @@ import close from "./close.svg";
 import css from "./tech/css.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import java from "./tech/java.png"
+import java from "./tech/java.png";
 import reactjs from "./tech/reactjs.png";
 import kotlin from "./tech/kotlin.png";
 import tailwind from "./tech/tailwind.png";
@@ -21,7 +21,7 @@ import netcore from "./tech/netcore.png";
 import spring from "./tech/spring.png";
 import pgsql from "./tech/pgsql.png";
 import dll from "./company/dll.png";
-import ncrvoyix from "./company/ncrvoyix.png"
+import ncrvoyix from "./company/ncrvoyix.png";
 import trends from "./company/trends.png";
 
 import newzup from "./newzup.png";
@@ -29,8 +29,8 @@ import memeit from "./memeit.png";
 import reboundtherapy from "./reboundtherapy.png";
 
 import harnoor from "./harnoor.png";
-import armin from "./armin.png"
-import melissa from "./melissa.png"
+import armin from "./armin.png";
+import melissa from "./melissa.png";
 
 export {
   logo,
@@ -62,5 +62,5 @@ export {
   reboundtherapy,
   harnoor,
   armin,
-  melissa
+  melissa,
 };
