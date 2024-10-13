@@ -68,7 +68,6 @@ const ProjectCard = ({
     </motion.div>
   );
 };
-
 const Works = () => {
   return (
     <>
@@ -82,9 +81,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Welcome to my portfolio, where I present a curated collection of projects that highlight my skills, expertise, and passion 
-          for software development. Each project is a testament to my ability to tackle complex challenges, embrace diverse technologies,
-          and deliver results effectively.
+          Welcome to my curated project gallery! Here, I present a collection of software development projects that showcase my skills,
+           problem-solving abilities, and passion for coding. Each project demonstrates my capacity to tackle complex challenges, adapt 
+           to diverse technologies, and deliver effective solutions. As an aspiring developer, I invite you to explore my work and see 
+           how I can contribute to your team!
+
 
 
         </motion.p>

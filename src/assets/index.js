@@ -24,8 +24,11 @@ import dll from "./company/dll.png";
 import ncrvoyix from "./company/ncrvoyix.png";
 import trends from "./company/trends.png";
 
+import our_secret from "./our_secret.png";
+import meal_in_budget from "./meal_in_budget.png";
+import ogre from "./ogre.png";
+import cinemalytics from "./cinemalytics.png";
 import newzup from "./newzup.png";
-import memeit from "./memeit.png";
 import reboundtherapy from "./reboundtherapy.png";
 
 import harnoor from "./harnoor.png";
@@ -57,8 +60,11 @@ export {
   dll,
   ncrvoyix,
   trends,
+  our_secret,
+  meal_in_budget,
+  ogre,
+  cinemalytics,
   newzup,
-  memeit,
   reboundtherapy,
   harnoor,
   armin,

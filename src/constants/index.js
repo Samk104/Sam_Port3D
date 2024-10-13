@@ -19,7 +19,10 @@ import {
   trends,
   dll,
   reboundtherapy,
-  memeit,
+  our_secret,
+  meal_in_budget,
+  ogre,
+  cinemalytics,
   newzup,
   nextjs,
   harnoor,
@@ -184,6 +187,90 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Our Secret Perfumes",
+    description:
+      "A high-performance e-commerce platform resulting in a 150% increase in monthly order volume (from 80 to 210+) and significant enhancements to the company's market presence and sales growth.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "freelance",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: our_secret,
+    source_code_link: "https://github.com/Samk104/eMergeHubClient",
+  },
+  {
+    name: "Meal In Budget",
+    description:
+      "A web application that streamlines meal planning by automating recipe ingredient price comparisons across local supermarkets. Saves up to 30% on groceries and reduces planning time by up to 60%.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "selenium & beautiful soup",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: meal_in_budget,
+    source_code_link: "https://github.com/Samk104/Meal-In-Budget",
+  },
+  {
+    name: "OGRE",
+    description:
+      "An iOS app for GRE preparation, featuring adaptive learning algorithms, personalized study plans, gamification elements like leaderboards and streaks that boosted daily test user engagement by 85% and more ...",
+    tags: [
+      {
+        name: "swift",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "swiftui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ogre,
+    source_code_link: "https://github.com/Rijulmehta531/OGRE",
+  },
+  {
+    name: "Cinemalytics",
+    description:
+      "A machine learning-driven solution that predicts movie success with 80% accuracy, leveraging a dataset of over 1 million films. Implemented a variety of models.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "numpy",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scikit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cinemalytics,
+    source_code_link: "https://github.com/Samk104/Cinemalytics",
+  },
+  {
     name: "NewzUp",
     description:
       "Catch up on tech news effortlessly: A news app that presents tech updates with thumbnail previews and headlines, making reading articles a breeze.",
@@ -202,27 +289,6 @@ const projects = [
       },
     ],
     image: newzup,
-    source_code_link: "https://github.com/Samk104?tab=repositories",
-  },
-  {
-    name: "MemeIt",
-    description:
-      "Experience endless laughter: A delightful and user-friendly app that delivers a daily dose of humor, displaying memes one by one and making sharing with friends a breeze.",
-    tags: [
-      {
-        name: "kotlin",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "android",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: memeit,
     source_code_link: "https://github.com/Samk104?tab=repositories",
   },
   {
