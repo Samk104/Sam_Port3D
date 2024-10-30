@@ -17,6 +17,7 @@ import {
   python,
   ncrvoyix,
   trends,
+  ourSecret,
   dll,
   reboundtherapy,
   our_secret,
@@ -127,10 +128,37 @@ const experiences = [
     iconBg: "#482e91",
     date: "May 2024 - Aug 2024",
     points: [
-      "Developed a comprehensive loyalty demo application integrating NCR's Cloud APIs, utilizing 𝗡𝗲𝘅𝘁.𝗷𝘀, 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁, 𝗮𝗻𝗱 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦.",
-      "Successfully implemented Apple Pay and Google Wallet integrations, introducing new capabilities to the team and enhancing the application's functionality.",
-      "Implemented rigorous testing strategies including integration, end-to-end and unit tests, significantly improving code coverage and quality.The application was deployed on 𝗚𝗼𝗼𝗴𝗹𝗲 𝗖𝗹𝗼𝘂𝗱 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 utilizing Docker, Kubernetes (GKE), and GitHub Actions for CI/CD.",
-      "This interactive showcase of Voyix’s powerful APIs aims to reduce customer onboarding times (by up to 50%) , streamlining the process for support and onboarding teams and attracting potential clients by visually demonstrating API capabilities.",
+      "Developed a full-stack web application to showcase NCR’s RESTful cloud APIs.",
+      "Utilized a microservice architecture with Next.js, TypeScript, and Tailwind CSS.",
+      "Implemented Apple Pay and Google Wallet API integrations, expanding the team’s capabilities.",
+      "Improved code quality and coverage through comprehensive testing, including integration, end-to-end (Cypress), and unit tests (Jest).",
+      "Contributed to deployment on GCP using Docker, Kubernetes, and GitHub Actions for CI/CD.",
+      "The loyalty demo reduces onboarding times by up to 50%, supporting internal teams while enhancing loyalty program management for businesses and customers."
+    ],
+  },
+  {
+    title: "Machine Learning Research Assistant",
+    company_name: "TReNDS Center",
+    icon: trends,
+    iconBg: "#E6DEDD",
+    date: "Aug 2022 - Aug 2024",
+    points: [
+      "Applied advanced machine learning algorithms to analyze multi-site fMRI datasets(over 500 subjects).",
+      "Uncovered significant latent functional networks in motion-related signals which is typically discarded.",
+      "Research has potential to identify new treatment pathways for schizophrenia.",
+      "Authored a 3-page paper and presented it at several conferences, including the 46th Annual International Conference of the IEEE EMBC and the Undergraduate Research Conference."
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Our Secret Perfumes",
+    icon: ourSecret,
+    iconBg: "#E6DEDD",
+    date: "Aug 2023 - Present",
+    points: [
+      "Engineered a e-commerce web application using Next.js, TypeScript, Tailwind CSS and MySQL.",
+      "Integrated Razorpay’s RESTful APIs to add secure payment processing and checkout options.",
+      "Achieved a significant increase in monthly order volume (from 80 to 310+) and significantly boosted the company’s market presence and sales growth through the new platform."
     ],
   },
   {
@@ -140,20 +168,8 @@ const experiences = [
     iconBg: "#125eab",
     date: "Oct 2021 - Present",
     points: [
-      "Spearheaded the design and delivery of beginner friendly programming workshops in Java, Python, and web development (HTML, CSS, JS) for university students and staff, showcasing technical expertise and curriculum development skills.",
+      "Led the design and delivery of beginner friendly programming workshops in Java, Python, and web development (HTML, CSS, JS) for university students and staff, showcasing technical expertise and curriculum development skills.",
       "Implemented innovative engagement strategies, resulting in a 𝟲𝟬% 𝗶𝗻𝗰𝗿𝗲𝗮𝘀𝗲 in attendee retention and participation, demonstrating strong leadership and ability to drive measurable results in educational technology initiatives.",
-    ],
-  },
-  {
-    title: "Research Assistant",
-    company_name: "TReNDS",
-    icon: trends,
-    iconBg: "#E6DEDD",
-    date: "Aug 2022 - Aug 2024",
-    points: [
-      "Applied advanced 𝗺𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 algorithms to analyze multi-site brain imaging datasets, revealing that motion-related signals, often discarded in traditional methods, contain important functional networks.",
-      "Led research as first author exploring the intricate relationship between brain functional networks and motion-related signals in schizophrenia. Analyzed extensive fMRI datasets to identify potential novel treatment pathways.",
-      "These research efforts culminated in a paper presented at the 𝟰𝟲𝘁𝗵 𝗔𝗻𝗻𝘂𝗮𝗹 𝗜𝗻𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗖𝗼𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝗼𝗳 𝘁𝗵𝗲 𝗜𝗘𝗘𝗘 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗶𝗻 𝗠𝗲𝗱𝗶𝗰𝗶𝗻𝗲 𝗮𝗻𝗱 𝗕𝗶𝗼𝗹𝗼𝗴𝘆 𝗦𝗼𝗰𝗶𝗲𝘁𝘆 (𝗘𝗠𝗕𝗖), highlighting the impact, innovation and contribution of our work in the field of neuroimaging.",
     ],
   },
 ];
@@ -177,7 +193,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Collaborating with Sam on a mobile app project has been truly inspiring. His unwavering dedication to solving intricate challenges with precision, coupled with his insatiable curiosity, consistently leads to exceptional solutions to problems.",
+      "Collaborating with Sam on a mobile app project has been truly inspiring. His unwavering dedication to solving challenges with precision, coupled with his curiosity, consistently leads to exceptional solutions to problems.",
     name: "Harnoor Singh",
     designation: "Content Creator@Youtube Software Engineer",
     company: "Microsoft",
@@ -189,7 +205,7 @@ const projects = [
   {
     name: "Our Secret Perfumes",
     description:
-      "A high-performance e-commerce platform resulting in a 150% increase in monthly order volume (from 80 to 210+) and significant enhancements to the company's market presence and sales growth.",
+      "An e-commerce web application for a small business that resulted in a signicant increase in monthly order volume (from 80 to 210+) and significant enhancements to the company's market presence and sales growth.",
     tags: [
       {
         name: "next.js",

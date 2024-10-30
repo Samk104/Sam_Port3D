@@ -50,8 +50,7 @@ const About = () => {
      Innovative computer science student with a stellar academic performance, merging advanced technical expertise with substantial 
      research experience and over two years of hands-on software development. From crafting microservices-based apps in the corporate 
      world to pioneering fMRI analysis techniques in academia, I've consistently demonstrated a knack for rapid learning and 
-     problem-solving across diverse domains. My projects, including a high-performance e-commerce platform that significantly boosted 
-     order volume. Recognized globally for tech talent and armed with a comprehensive 
+     problem-solving across diverse domains. Recognized globally for tech talent and armed with a comprehensive 
      skill set in programming languages, frameworks, and cloud technologies, I'm eager to bring fresh ideas and efficiency to software 
      engineering roles. My proven track record, adaptability, and drive to create impactful solutions make me a valuable asset to 
      tech teams.
