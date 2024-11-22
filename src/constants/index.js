@@ -178,6 +178,14 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
+      "Sam was an incredible intern during his time at NCR Voyix. Not only was his past work and schooling impressive, he showed great initiative, eagerness to learn, and ownership of the project he was tasked with completing over the summer. His professional attitude and positive outlook raised my standards for interns and employees alike.",
+    name: "Grant Slone",
+    designation: "Software Engineer",
+    company: "NCR Voyix",
+    image: grant,
+  },
+  {
+    testimonial:
       "Sam has exhibited a remarkable ability to learn swiftly and consistently demonstrated exceptional problem-solving skills, making him an invaluable addition to my team.",
     name: "Dr. Armin Iraji",
     designation: "Assistant Professor of CS",
@@ -199,14 +207,6 @@ const testimonials = [
     designation: "Content Creator@Youtube Software Engineer",
     company: "Microsoft",
     image: harnoor,
-  },
-  {
-    testimonial:
-      "Sam was an incredible intern during his time at NCR Voyix. Not only was his past work and schooling impressive, he showed great initiative, eagerness to learn, and ownership of the project he was tasked with completing over the summer. His professional attitude and positive outlook raised my standards for interns and employees alike.",
-    name: "Grant Slone",
-    designation: "Software Engineer",
-    company: "NCR Voyix",
-    image: grant,
   },
 ];
 
