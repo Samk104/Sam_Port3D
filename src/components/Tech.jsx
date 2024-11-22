@@ -13,7 +13,9 @@ const Tech = () => {
           <BallCanvas icon={technology.icon}/>
         </div>
       ))}
+    <div className="flex items-center justify-center tracking-wider">And more...</div>
     </div>
+    
   );
 };
 
