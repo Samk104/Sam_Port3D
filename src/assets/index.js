@@ -35,6 +35,7 @@ import reboundtherapy from "./reboundtherapy.png";
 import harnoor from "./harnoor.png";
 import armin from "./armin.png";
 import melissa from "./melissa.png";
+import grant from "./grant.jpeg";
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   harnoor,
   armin,
   melissa,
+  grant,
 };

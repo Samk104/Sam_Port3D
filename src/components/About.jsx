@@ -47,13 +47,12 @@ const About = () => {
       variants={fadeIn("","",0.1,1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
     >
-     Innovative computer science student with a stellar academic performance, merging advanced technical expertise with substantial 
-     research experience and over two years of hands-on software development. From crafting microservices-based apps in the corporate 
-     world to pioneering fMRI analysis techniques in academia, I've consistently demonstrated a knack for rapid learning and 
-     problem-solving across diverse domains. Recognized globally for tech talent and armed with a comprehensive 
-     skill set in programming languages, frameworks, and cloud technologies, I'm eager to bring fresh ideas and efficiency to software 
-     engineering roles. My proven track record, adaptability, and drive to create impactful solutions make me a valuable asset to 
-     tech teams.
+    Innovative computer science graduate with a strong academic record, combining solid technical foundations with substantial research 
+    experience and over two years of hands-on software development. My journey spans from developing web and mobile applications in 
+    industry to conducting award-winning machine learning research in academia. I excel at rapid 
+    learning and innovative problem-solving across different domains, driven by my belief that learning is a continuous journey. 
+    With skills in multiple programming languages, frameworks, and cloud technologies, I bring adaptability and fresh ideas to 
+    collaborative teams. 
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>

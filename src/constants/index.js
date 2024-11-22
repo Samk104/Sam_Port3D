@@ -28,7 +28,8 @@ import {
   nextjs,
   harnoor,
   armin,
-  melissa,
+  // melissa,
+  grant,
 } from "../assets";
 
 export const navLinks = [
@@ -133,7 +134,7 @@ const experiences = [
       "Implemented Apple Pay and Google Wallet API integrations, expanding the team’s capabilities.",
       "Improved code quality and coverage through comprehensive testing, including integration, end-to-end (Cypress), and unit tests (Jest).",
       "Contributed to deployment on GCP using Docker, Kubernetes, and GitHub Actions for CI/CD.",
-      "The loyalty demo reduces onboarding times by up to 50%, supporting internal teams while enhancing loyalty program management for businesses and customers."
+      "The loyalty demo reduces onboarding times by up to 50%, supporting internal teams while enhancing loyalty program management for businesses and customers.",
     ],
   },
   {
@@ -146,7 +147,7 @@ const experiences = [
       "Applied advanced machine learning algorithms to analyze multi-site fMRI datasets(over 500 subjects).",
       "Uncovered significant latent functional networks in motion-related signals which is typically discarded.",
       "Research has potential to identify new treatment pathways for schizophrenia.",
-      "Authored a 3-page paper and presented it at several conferences, including the 46th Annual International Conference of the IEEE EMBC and the Undergraduate Research Conference."
+      "Authored a 3-page paper and presented it at several conferences, including the 46th Annual International Conference of the IEEE EMBC and the Undergraduate Research Conference.",
     ],
   },
   {
@@ -156,9 +157,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2023 - Present",
     points: [
-      "Engineered a e-commerce web application using Next.js, TypeScript, Tailwind CSS and MySQL.",
+      "Engineered an e-commerce web application using Next.js, TypeScript, Tailwind CSS and MySQL.",
       "Integrated Razorpay’s RESTful APIs to add secure payment processing and checkout options.",
-      "Achieved a significant increase in monthly order volume (from 80 to 310+) and significantly boosted the company’s market presence and sales growth through the new platform."
+      "Achieved a significant increase in monthly order volume (from 80 to 310+) and significantly boosted the company’s market presence and sales growth through the new platform.",
     ],
   },
   {
@@ -183,14 +184,14 @@ const testimonials = [
     company: "Georgia State University",
     image: armin,
   },
-  {
-    testimonial:
-      "Sam is an outstanding instructor and a valuable team member. His extensive knowledge and approachable demeanor make him an indispensable asset. ",
-    name: "L.M. Spencer",
-    designation: "Tech Training Specialist",
-    company: "Georgia State University",
-    image: melissa,
-  },
+  // {
+  //   testimonial:
+  //     "Sam is an outstanding instructor and a valuable team member. His extensive knowledge and approachable demeanor make him an indispensable asset. ",
+  //   name: "L.M. Spencer",
+  //   designation: "Tech Training Specialist",
+  //   company: "Georgia State University",
+  //   image: melissa,
+  // },
   {
     testimonial:
       "Collaborating with Sam on a mobile app project has been truly inspiring. His unwavering dedication to solving challenges with precision, coupled with his curiosity, consistently leads to exceptional solutions to problems.",
@@ -198,6 +199,14 @@ const testimonials = [
     designation: "Content Creator@Youtube Software Engineer",
     company: "Microsoft",
     image: harnoor,
+  },
+  {
+    testimonial:
+      "Sam was an incredible intern during his time at NCR Voyix. Not only was his past work and schooling impressive, he showed great initiative, eagerness to learn, and ownership of the project he was tasked with completing over the summer. His professional attitude and positive outlook raised my standards for interns and employees alike.",
+    name: "Grant Slone",
+    designation: "Software Engineer",
+    company: "NCR Voyix",
+    image: grant,
   },
 ];
 
