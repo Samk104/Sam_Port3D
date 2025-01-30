@@ -21,9 +21,10 @@ import netcore from "./tech/netcore.png";
 import spring from "./tech/spring.png";
 import pgsql from "./tech/pgsql.png";
 import dll from "./company/dll.png";
+import freelance from "./company/freelance.png"
 import ncrvoyix from "./company/ncrvoyix.png";
 import trends from "./company/trends.png";
-import ourSecret from "./ourSecret.png";
+// import ourSecret from "./ourSecret.png";
 
 import our_secret from "./our_secret.png";
 import meal_in_budget from "./meal_in_budget.png";
@@ -60,7 +61,8 @@ export {
   kotlin,
   nextjs,
   dll,
-  ourSecret,
+  // ourSecret,
+  freelance,
   ncrvoyix,
   trends,
   our_secret,
