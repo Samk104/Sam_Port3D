@@ -130,7 +130,7 @@ const experiences = [
     iconBg: "#482e91",
     date: "Aug 2023 - Present",
     points: [
-      "Engineered a 𝗳𝘂𝗹𝗹-𝘀𝘁𝗮𝗰𝗸 𝘄𝗲𝗯-𝗯𝗮𝘀𝗲𝗱 𝗦𝗮𝗮𝗦 e-commerce platform enabling 𝟮𝟭+ small and medium businesses to achieve 𝟱𝟳% 𝗮𝘃𝗲𝗿𝗮𝗴𝗲 𝗿𝗲𝘃𝗲𝗻𝘂𝗲 growth using 𝗡𝗲𝘅𝘁.𝗷𝘀, 𝗡ode.𝗷𝘀, 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁, 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦, 𝗮𝗻𝗱 𝗣𝗼𝘀𝘁𝗴𝗿𝗲𝗦𝗤𝗟",
+      "Engineered a 𝗳𝘂𝗹𝗹-𝘀𝘁𝗮𝗰𝗸 𝘄𝗲𝗯-𝗯𝗮𝘀𝗲𝗱 𝗦𝗮𝗮𝗦 e-commerce platform enabling 𝟮𝟭+ small and medium businesses to achieve 𝟱𝟳% 𝗮𝘃𝗲𝗿𝗮𝗴𝗲 𝗿𝗲𝘃𝗲𝗻𝘂𝗲 growth using 𝗡𝗲𝘅𝘁.𝗷𝘀, 𝗡𝗼𝗱𝗲.𝗷𝘀, 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁, 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦, 𝗮𝗻𝗱 𝗣𝗼𝘀𝘁𝗴𝗿𝗲𝗦𝗤𝗟",
       "Designed and implemented 𝗥𝗘𝗦𝗧𝗳𝘂𝗹 𝗔𝗣𝗜𝘀 improving seller 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗲𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝘆 𝗯𝘆 𝘂𝗽 𝘁𝗼 𝟱𝟬%, powering a comprehensive portal for inventory management, order tracking, and sales analytics",
       "Devised an automated system to create 𝗦𝗘𝗢-𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗲𝗱, responsive storefronts, 𝗿𝗲𝗱𝘂𝗰𝗶𝗻𝗴 𝗯𝗼𝘂𝗻𝗰𝗲 𝗿𝗮𝘁𝗲𝘀 𝗯𝘆 𝟯𝟴%",
       "Integrated secure payment processing system handling $𝟮𝟳𝟬𝗞 𝗶𝗻 𝘁𝗿𝗮𝗻𝘀𝗮𝗰𝘁𝗶𝗼𝗻𝘀 and supporting thousands of active users through Razorpay’s RESTful APIs",
