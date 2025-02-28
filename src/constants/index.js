@@ -21,7 +21,7 @@ import {
   // ourSecret,
   dll,
   reboundtherapy,
-  our_secret,
+  // our_secret,
   meal_in_budget,
   ogre,
   cinemalytics,
@@ -130,10 +130,10 @@ const experiences = [
     iconBg: "#482e91",
     date: "Aug 2023 - Present",
     points: [
-      "Engineered a 𝗳𝘂𝗹𝗹-𝘀𝘁𝗮𝗰𝗸 𝘄𝗲𝗯-𝗯𝗮𝘀𝗲𝗱 𝗦𝗮𝗮𝗦 e-commerce platform enabling 𝟮𝟭+ small and medium businesses to achieve 𝟱𝟳% 𝗮𝘃𝗲𝗿𝗮𝗴𝗲 𝗿𝗲𝘃𝗲𝗻𝘂𝗲 growth using 𝗡𝗲𝘅𝘁.𝗷𝘀, 𝗡𝗼𝗱𝗲.𝗷𝘀, 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁, 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦, 𝗮𝗻𝗱 𝗣𝗼𝘀𝘁𝗴𝗿𝗲𝗦𝗤𝗟",
-      "Designed and implemented 𝗥𝗘𝗦𝗧𝗳𝘂𝗹 𝗔𝗣𝗜𝘀 improving seller 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗲𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝘆 𝗯𝘆 𝘂𝗽 𝘁𝗼 𝟱𝟬%, powering a comprehensive portal for inventory management, order tracking, and sales analytics",
-      "Devised an automated system to create 𝗦𝗘𝗢-𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗲𝗱, responsive storefronts, 𝗿𝗲𝗱𝘂𝗰𝗶𝗻𝗴 𝗯𝗼𝘂𝗻𝗰𝗲 𝗿𝗮𝘁𝗲𝘀 𝗯𝘆 𝟯𝟴%",
-      "Integrated secure payment processing system handling $𝟮𝟳𝟬𝗞 𝗶𝗻 𝘁𝗿𝗮𝗻𝘀𝗮𝗰𝘁𝗶𝗼𝗻𝘀 and supporting thousands of active users through Razorpay’s RESTful APIs",
+      "Delivered a 𝟱𝟳% revenue boost for 𝟮𝟭+ 𝗦𝗠𝗕𝘀 by collaborating with a teammate to design and develop a 𝗳𝘂𝗹𝗹-𝘀𝘁𝗮𝗰𝗸 𝗦𝗮𝗮𝗦 e-commerce platform using 𝗡𝗲𝘅𝘁.𝗷𝘀, 𝗡𝗼𝗱𝗲.𝗷𝘀, 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁, 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦, 𝗮𝗻𝗱 𝗣𝗼𝘀𝘁𝗴𝗿𝗲𝗦𝗤𝗟",
+      "Designed and implemented 𝗥𝗘𝗦𝗧𝗳𝘂𝗹 𝗔𝗣𝗜𝘀 improving seller 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗲𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝘆 by up to 𝟱𝟬%, powering a comprehensive portal for inventory management, order tracking, and sales analytics",
+      "Enhanced security and user access by building an 𝗮𝘂𝘁𝗵𝗲𝗻𝘁𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗺𝗶𝗰𝗿𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗲 using 𝗝𝗮𝘃𝗮, 𝗦𝗽𝗿𝗶𝗻𝗴 𝗕𝗼𝗼𝘁",
+      "Built checkout functionality and integrated a secure payment processing system handling $𝟮𝟳𝟬𝗞 𝗶𝗻 𝘁𝗿𝗮𝗻𝘀𝗮𝗰𝘁𝗶𝗼𝗻𝘀 and supporting thousands of active users through 𝗥𝗮𝘇𝗼𝗿𝗽𝗮𝘆’𝘀 RESTful APIs",
     ],
   },
   {
@@ -143,11 +143,11 @@ const experiences = [
     iconBg: "#482e91",
     date: "May 2024 - Aug 2024",
     points: [
-      "Developed NCR’s 𝗹𝗼𝘆𝗮𝗹𝘁𝘆 𝗱𝗲𝗺𝗼 𝘄𝗲𝗯 𝗮𝗽𝗽 integrating 𝗰𝗹𝗼𝘂𝗱 𝗺𝗶𝗰𝗿𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 to showcase diverse use-cases, boosting 𝗮𝗱𝗼𝗽𝘁𝗶𝗼𝗻 𝗿𝗮𝘁𝗲 𝗯𝘆 𝟯𝟯%, using 𝗡𝗲𝘅𝘁.𝗷𝘀, 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁, 𝗮𝗻𝗱 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦",
-      "Enabled 𝗺𝗼𝗯𝗶𝗹𝗲-𝗯𝗮𝘀𝗲𝗱 loyalty and gift card management, potentially increasing 𝗰𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗿𝗲𝘁𝗲𝗻𝘁𝗶𝗼𝗻 by up to 𝟮𝟰% through integrating 𝗔𝗽𝗽𝗹𝗲 𝗣𝗮𝘆 and 𝗚𝗼𝗼𝗴𝗹𝗲 𝗪𝗮𝗹𝗹𝗲𝘁 𝗔𝗣𝗜𝘀",
-      "Enhanced code quality achieving 𝟵𝟲% test coverage through comprehensive 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻, 𝗲𝗻𝗱-𝘁𝗼-𝗲𝗻𝗱 (𝗖𝘆𝗽𝗿𝗲𝘀𝘀), 𝗮𝗻𝗱 𝘂𝗻𝗶𝘁 𝘁𝗲𝘀𝘁𝗶𝗻𝗴 (𝗝𝗲𝘀𝘁)",
-      "Contributed to deployment on 𝗚𝗖𝗣 𝘂𝘀𝗶𝗻𝗴 𝗗𝗼𝗰𝗸𝗲𝗿, 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀, 𝗮𝗻𝗱 𝗚𝗶𝘁𝗛𝘂𝗯 𝗔𝗰𝘁𝗶𝗼𝗻𝘀 𝗳𝗼𝗿 𝗖𝗜/𝗖𝗗",
-      "Achieved estimated 𝗮𝗻𝗻𝘂𝗮𝗹 𝘀𝗮𝘃𝗶𝗻𝗴𝘀 𝗼𝗳 $𝟮𝟱𝟬𝗞 by reducing customer 𝘀𝘂𝗽𝗽𝗼𝗿𝘁 𝗰𝗼𝘀𝘁𝘀 𝗯𝘆 𝟯𝟬%, and decreasing new client onboarding times by up to 𝟱𝟬%",
+      "Developed NCR’s 𝗹𝗼𝘆𝗮𝗹𝘁𝘆 𝗱𝗲𝗺𝗼 𝘄𝗲𝗯 𝗮𝗽𝗽 integrating 𝗰𝗹𝗼𝘂𝗱 𝗺𝗶𝗰𝗿𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 to showcase diverse use-cases, boosting 𝗮𝗱𝗼𝗽𝘁𝗶𝗼𝗻 𝗿𝗮𝘁𝗲 by upto 𝟯𝟯%, using 𝗡𝗲𝘅𝘁.𝗷𝘀, 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁, 𝗮𝗻𝗱 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦",
+      "Enabled seamless 𝗺𝗼𝗯𝗶𝗹𝗲 𝗹𝗼𝘆𝗮𝗹𝘁𝘆 and gift card management by integrating 𝗔𝗽𝗽𝗹𝗲 𝗽𝗮𝘆, 𝗚𝗼𝗼𝗴𝗹𝗲 𝘄𝗮𝗹𝗹𝗲𝘁 𝗔𝗣𝗜𝘀 and developing a 𝗖#/.𝗡𝗘𝗧 service that issues mobile-ready digital gift cards",
+      "Achieved 𝟵𝟲% 𝘁𝗲𝘀𝘁 𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 by enhancing code quality through comprehensive 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻, 𝘂𝗻𝗶𝘁 (𝗝𝗲𝘀𝘁), 𝗮𝗻𝗱 𝗲𝗻𝗱-𝘁𝗼-𝗲𝗻𝗱 (𝗖𝘆𝗽𝗿𝗲𝘀𝘀) 𝘁𝗲𝘀𝘁𝗶𝗻𝗴",
+      "Contributed to deployments on 𝗚𝗖𝗣 by leveraging 𝗗𝗼𝗰𝗸𝗲𝗿, 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀, and 𝗚𝗶𝘁𝗛𝘂𝗯 𝗔𝗰𝘁𝗶𝗼𝗻𝘀 𝗳𝗼𝗿 𝗖𝗜/𝗖𝗗",
+      "Reduced customer 𝘀𝘂𝗽𝗽𝗼𝗿𝘁 𝗰𝗼𝘀𝘁𝘀 𝗯𝘆 𝟯𝟬% and new client onboarding times by up to 𝟱𝟬%, achieving an estimated 𝗮𝗻𝗻𝘂𝗮𝗹 𝘀𝗮𝘃𝗶𝗻𝗴𝘀 𝗼𝗳 $𝟮𝟱𝟬𝗞 through process optimizations",
     ],
   },
   {
@@ -155,7 +155,7 @@ const experiences = [
     company_name: "TReNDS Center",
     icon: trends,
     iconBg: "#E6DEDD",
-    date: "Aug 2022 - Aug 2024",
+    date: "Aug 2022 - May 2024",
     points: [
       "Applied 𝗮𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗺𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺𝘀 to multi-site 𝗳𝗠𝗥𝗜 datasets (over 𝟱𝟬𝟬 𝘀𝘂𝗯𝗷𝗲𝗰𝘁𝘀) discovering 𝗹𝗮𝘁𝗲𝗻𝘁 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 in typically 𝗱𝗶𝘀𝗰𝗮𝗿𝗱𝗲𝗱 data signals, potentially identifying new 𝘁𝗿𝗲𝗮𝘁𝗺𝗲𝗻𝘁 𝗽𝗮𝘁𝗵𝘄𝗮𝘆𝘀 𝗳𝗼𝗿 𝘀𝗰𝗵𝗶𝘇𝗼𝗽𝗵𝗿𝗲𝗻𝗶𝗮",
       "Authored a 𝗿𝗲𝘀𝗲𝗮𝗿𝗰𝗵 𝗽𝗮𝗽𝗲𝗿 and presented it at several conferences, including the 𝟰𝟲𝘁𝗵 𝗔𝗻𝗻𝘂𝗮𝗹 𝗜𝗻𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗖𝗼𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝗼𝗳 𝘁𝗵𝗲 𝗜𝗘𝗘𝗘 𝗘𝗠𝗕𝗖 and the Undergraduate Research Conference",
@@ -167,7 +167,7 @@ const experiences = [
     company_name: "DLL@GSU",
     icon: dll,
     iconBg: "#125eab",
-    date: "Oct 2021 - Present",
+    date: "Oct 2021 - May 2024",
     points: [
       "Led the development and delivery of beginner-friendly programming workshops in 𝗝𝗮𝘃𝗮, 𝗣𝘆𝘁𝗵𝗼𝗻, 𝗮𝗻𝗱 𝘄𝗲𝗯 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 (𝗛𝗧𝗠𝗟, 𝗖𝗦𝗦, 𝗝𝗦) for over 𝟰𝟬𝟬𝟬 𝘂𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 𝘀𝘁𝘂𝗱𝗲𝗻𝘁𝘀 𝗮𝗻𝗱 𝘀𝘁𝗮𝗳𝗳, resulting in a 𝟳𝟱% 𝗶𝗻𝗰𝗿𝗲𝗮𝘀𝗲 𝗶𝗻 𝗮𝘁𝘁𝗲𝗻𝗱𝗲𝗲 𝗿𝗲𝘁𝗲𝗻𝘁𝗶𝗼𝗻 and a 𝟲𝟬% 𝗯𝗼𝗼𝘀𝘁 𝗶𝗻 𝗮𝗰𝘁𝗶𝘃𝗲 𝗽𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝘁𝗶𝗼𝗻, by implementing hands-on coding exercises, live demonstrations, and real-world project simulations",
       "Cultivated a diverse learning environment, attracting participants from 𝟭𝟱 𝗱𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝘁 𝗮𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗱𝗲𝗽𝗮𝗿𝘁𝗺𝗲𝗻𝘁𝘀 and achieving a 𝟵𝟯% 𝘀𝗮𝘁𝗶𝘀𝗳𝗮𝗰𝘁𝗶𝗼𝗻 𝗿𝗮𝘁𝗲 among workshop attendees, by developing an inclusive curriculum and conducting post-session surveys for continuous improvement",
@@ -211,27 +211,27 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Our Secret Perfumes",
-    description:
-      "An e-commerce web application for a small business that resulted in a signicant increase in monthly order volume (from 80 to 210+) and significant enhancements to the company's market presence and sales growth.",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "freelance",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: our_secret,
-    source_code_link: "https://github.com/Samk104/eMergeHubClient",
-  },
+  // {
+  //   name: "Our Secret Perfumes",
+  //   description:
+  //     "An e-commerce web application for a small business that resulted in a signicant increase in monthly order volume (from 80 to 210+) and significant enhancements to the company's market presence and sales growth.",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "freelance",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: our_secret,
+  //   source_code_link: "https://github.com/Samk104/eMergeHubClient",
+  // },
   {
     name: "Meal In Budget",
     description:
