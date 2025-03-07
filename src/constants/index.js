@@ -128,7 +128,7 @@ const experiences = [
     company_name: "Buzzaro",
     icon: freelance,
     iconBg: "#482e91",
-    date: "Aug 2023 - Present",
+    date: "March 2023 - Present",
     points: [
       "Delivered a 𝟱𝟳% revenue boost for 𝟮𝟭+ 𝗦𝗠𝗕𝘀 by collaborating with a teammate to design and develop a 𝗳𝘂𝗹𝗹-𝘀𝘁𝗮𝗰𝗸 𝗦𝗮𝗮𝗦 e-commerce platform using 𝗡𝗲𝘅𝘁.𝗷𝘀, 𝗡𝗼𝗱𝗲.𝗷𝘀, 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁, 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦, 𝗮𝗻𝗱 𝗣𝗼𝘀𝘁𝗴𝗿𝗲𝗦𝗤𝗟",
       "Designed and implemented 𝗥𝗘𝗦𝗧𝗳𝘂𝗹 𝗔𝗣𝗜𝘀 improving seller 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗲𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝘆 by up to 𝟱𝟬%, powering a comprehensive portal for inventory management, order tracking, and sales analytics",
