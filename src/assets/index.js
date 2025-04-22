@@ -12,7 +12,7 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import java from "./tech/java.png";
 import reactjs from "./tech/reactjs.png";
-import kotlin from "./tech/kotlin.png";
+import aws from "./tech/aws.png";
 import tailwind from "./tech/tailwind.png";
 import nextjs from "./tech/nextjs.svg";
 import python from "./tech/python.png";
@@ -58,7 +58,7 @@ export {
   python,
   tailwind,
   cSharp,
-  kotlin,
+  aws,
   nextjs,
   dll,
   // ourSecret,

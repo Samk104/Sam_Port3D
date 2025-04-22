@@ -4,7 +4,7 @@ import {
   creator,
   web,
   javascript,
-  kotlin,
+  aws,
   html,
   css,
   reactjs,
@@ -54,7 +54,7 @@ const services = [
     icon: web,
   },
   {
-    title: "API Design",
+    title: "Cloud Engineering",
     icon: backend,
   },
   {
@@ -113,8 +113,8 @@ const technologies = [
     icon: netcore,
   },
   {
-    name: "Kotlin",
-    icon: kotlin,
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "PostgreSQL",
@@ -128,13 +128,14 @@ const experiences = [
     company_name: "Buzzaro",
     icon: freelance,
     iconBg: "#482e91",
-    date: "March 2023 - Present",
+    date: "March 2023 - March 2025",
     points: [
-      "Delivered a 𝟱𝟳% revenue boost for 𝟮𝟭+ 𝗦𝗠𝗕𝘀 by collaborating with a teammate to design and develop a 𝗳𝘂𝗹𝗹-𝘀𝘁𝗮𝗰𝗸 𝗦𝗮𝗮𝗦 e-commerce platform using 𝗡𝗲𝘅𝘁.𝗷𝘀, 𝗡𝗼𝗱𝗲.𝗷𝘀, 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁, 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦, 𝗮𝗻𝗱 𝗣𝗼𝘀𝘁𝗴𝗿𝗲𝗦𝗤𝗟",
-      "Designed and implemented 𝗥𝗘𝗦𝗧𝗳𝘂𝗹 𝗔𝗣𝗜𝘀 improving seller 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗲𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝘆 by up to 𝟱𝟬%, powering a comprehensive portal for inventory management, order tracking, and sales analytics",
-      "Enhanced security and user access by building an 𝗮𝘂𝘁𝗵𝗲𝗻𝘁𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗺𝗶𝗰𝗿𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗲 using 𝗝𝗮𝘃𝗮, 𝗦𝗽𝗿𝗶𝗻𝗴 𝗕𝗼𝗼𝘁",
-      "Built checkout functionality and integrated a secure payment processing system handling $𝟮𝟳𝟬𝗞 𝗶𝗻 𝘁𝗿𝗮𝗻𝘀𝗮𝗰𝘁𝗶𝗼𝗻𝘀 and supporting thousands of active users through 𝗥𝗮𝘇𝗼𝗿𝗽𝗮𝘆’𝘀 RESTful APIs",
-    ],
+    "Co-developed a 𝗳𝘂𝗹𝗹-𝘀𝘁𝗮𝗰𝗸 𝗦𝗮𝗮𝗦 platform enabling small-medium businesses to launch customizable online storefronts — boosting 𝗿𝗲𝘃𝗲𝗻𝘂𝗲 𝗯𝘆 𝟱𝟳% for 𝟮𝟭+ 𝗯𝘂𝘀𝗶𝗻𝗲𝘀𝘀𝗲𝘀 using Next.js, Node.js, Tailwind CSS, and TypeScript",
+    "Migrated backend from TiDB to AWS RDS (PostgreSQL) and transitioned frontend from Vercel Cloud to AWS (S3, CloudFront, EC2, CloudWatch), reducing compute costs and improving system performance and deployment control",
+    "Improved seller efficiency by ∼𝟰𝟱% by building RESTful APIs for the seller portal, using Kafka to handle inventory, order tracking, and sales analytics through decoupled event processing",
+    "Enhanced security and user access by building a 𝗝𝗪𝗧-based 𝗮𝘂𝘁𝗵𝗲𝗻𝘁𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗺𝗶𝗰𝗿𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗲 using Java and Spring Boot, integrating OAuth2.0 for third-party sign-in (Google, Facebook)",
+    "Built secure checkout workflows and integrated Razorpay’s APIs, processing $𝟮𝟳𝟬𝗞+ in transactions for thousands of active users",
+    ]
   },
   {
     title: "Software Engineer Intern",
@@ -143,11 +144,10 @@ const experiences = [
     iconBg: "#482e91",
     date: "May 2024 - Aug 2024",
     points: [
-      "Developed NCR’s 𝗹𝗼𝘆𝗮𝗹𝘁𝘆 𝗱𝗲𝗺𝗼 𝘄𝗲𝗯 𝗮𝗽𝗽 integrating 𝗰𝗹𝗼𝘂𝗱 𝗺𝗶𝗰𝗿𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 to showcase diverse use-cases, boosting 𝗮𝗱𝗼𝗽𝘁𝗶𝗼𝗻 𝗿𝗮𝘁𝗲 by upto 𝟯𝟯%, using 𝗡𝗲𝘅𝘁.𝗷𝘀, 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁, 𝗮𝗻𝗱 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦",
-      "Enabled seamless 𝗺𝗼𝗯𝗶𝗹𝗲 𝗹𝗼𝘆𝗮𝗹𝘁𝘆 and gift card management by integrating 𝗔𝗽𝗽𝗹𝗲 𝗽𝗮𝘆, 𝗚𝗼𝗼𝗴𝗹𝗲 𝘄𝗮𝗹𝗹𝗲𝘁 𝗔𝗣𝗜𝘀 and developing a 𝗖#/.𝗡𝗘𝗧 service that issues mobile-ready digital gift cards",
-      "Achieved 𝟵𝟲% 𝘁𝗲𝘀𝘁 𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 by enhancing code quality through comprehensive 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻, 𝘂𝗻𝗶𝘁 (𝗝𝗲𝘀𝘁), 𝗮𝗻𝗱 𝗲𝗻𝗱-𝘁𝗼-𝗲𝗻𝗱 (𝗖𝘆𝗽𝗿𝗲𝘀𝘀) 𝘁𝗲𝘀𝘁𝗶𝗻𝗴",
-      "Contributed to deployments on 𝗚𝗖𝗣 by leveraging 𝗗𝗼𝗰𝗸𝗲𝗿, 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀, and 𝗚𝗶𝘁𝗛𝘂𝗯 𝗔𝗰𝘁𝗶𝗼𝗻𝘀 𝗳𝗼𝗿 𝗖𝗜/𝗖𝗗",
-      "Reduced customer 𝘀𝘂𝗽𝗽𝗼𝗿𝘁 𝗰𝗼𝘀𝘁𝘀 𝗯𝘆 𝟯𝟬% and new client onboarding times by up to 𝟱𝟬%, achieving an estimated 𝗮𝗻𝗻𝘂𝗮𝗹 𝘀𝗮𝘃𝗶𝗻𝗴𝘀 𝗼𝗳 $𝟮𝟱𝟬𝗞 through process optimizations",
+    "Developed a 𝘄𝗲𝗯 𝗮𝗽𝗽 to showcase diverse use-cases of cloud microservices by layering demo APIs, boosting 𝗮𝗱𝗼𝗽𝘁𝗶𝗼𝗻 𝗿𝗮𝘁𝗲 by ∼𝟯𝟯%, using Next.js, TypeScript, and Tailwind CSS",
+    "Enabled seamless mobile loyalty and gift card management by integrating Apple pay, Google wallet APIs and developing a Java, Spring Boot service that issues mobile-ready digital gift cards",
+    "Achieved 𝟵𝟲% 𝘁𝗲𝘀𝘁 𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 through comprehensive integration, unit (Jest), and e2e (Cypress) testing",
+    "Deployed the app on AWS by leveraging Docker, Kubernetes, and GitHub Actions for CI/CD",
     ],
   },
   {
