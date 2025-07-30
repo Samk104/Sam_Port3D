@@ -353,7 +353,8 @@ const research = [
       },
     ],
     image: paper,
-    source_code_link: "https://ieeexplore.ieee.org/document/10782518",
+    source_code_link1: "https://ieeexplore.ieee.org/document/10782518",
+    source_code_link2: "https://csds.gsu.edu/2024/03/19/department-announces-student-award-winners/",
   },
 ]
 
