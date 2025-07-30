@@ -15,13 +15,12 @@ import {
   pgsql,
   spring,
   python,
+  safac,
   freelance,
   ncrvoyix,
   trends,
-  // ourSecret,
   dll,
   reboundtherapy,
-  // our_secret,
   meal_in_budget,
   ogre,
   cinemalytics,
@@ -31,6 +30,7 @@ import {
   armin,
   // melissa,
   grant,
+  paper,
 } from "../assets";
 
 export const navLinks = [
@@ -125,16 +125,28 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer",
+    company_name: "South Asian Folk Arts Council",
+    icon: safac,
+    iconBg: "#E6DEDD",
+    date: "Feb. 2025 - Present",
+    points: [
+    "Created a 𝘄𝗲𝗯 𝗽𝗹𝗮𝘁𝗳𝗼𝗿𝗺 (Angular, Python, PostgreSQL) to automatically collect and evaluate grant opportunities, saving 𝟮𝟬+ 𝗵𝗼𝘂𝗿𝘀/𝘄𝗲𝗲𝗸 in manual research and ∼$𝟯𝟬𝗞/𝘆𝗲𝗮𝗿 in admin cost",
+    "Implemented a multithreaded scraper (Selenium, OpenCV, Tesseract) to extract structured data from 𝟭𝟬+ 𝘄𝗲𝗯𝘀𝗶𝘁𝗲𝘀 and image-based flyers, reducing scrape time from 𝟯𝟳 𝘁𝗼 𝟵 𝗺𝗶𝗻𝘂𝘁𝗲𝘀",
+    "Integrated a self-hosted Mistral LLM (Ollama + RAG) to verify grant details (e.g., deadline, amount, eligibility) and rank results by relevance - reducing low-fit matches by ∼𝟰𝟬% via feedback-tuned scoring",
+    "Orchestrated scraper, DB, and scheduler with Docker Compose supporting local development and automated runs",
+    ]
+  },
+  {
+    title: "Co-founder / Software Engineer",
     company_name: "Buzzaro",
     icon: freelance,
     iconBg: "#482e91",
     date: "March 2023 - March 2025",
     points: [
-    "Co-developed a 𝗳𝘂𝗹𝗹-𝘀𝘁𝗮𝗰𝗸 𝗦𝗮𝗮𝗦 platform enabling small-medium businesses to launch customizable online storefronts — boosting 𝗿𝗲𝘃𝗲𝗻𝘂𝗲 𝗯𝘆 𝟱𝟳% for 𝟮𝟭+ 𝗯𝘂𝘀𝗶𝗻𝗲𝘀𝘀𝗲𝘀 using Next.js, Node.js, Tailwind CSS, and TypeScript",
-    "Migrated backend from TiDB to AWS RDS (PostgreSQL) and transitioned frontend from Vercel Cloud to AWS (S3, CloudFront, EC2, CloudWatch), reducing compute costs and improving system performance and deployment control",
-    "Improved seller efficiency by ∼𝟰𝟱% by building RESTful APIs for the seller portal, using Kafka to handle inventory, order tracking, and sales analytics through decoupled event processing",
-    "Enhanced security and user access by building a 𝗝𝗪𝗧-based 𝗮𝘂𝘁𝗵𝗲𝗻𝘁𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗺𝗶𝗰𝗿𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗲 using Java and Spring Boot, integrating OAuth2.0 for third-party sign-in (Google, Facebook)",
-    "Built secure checkout workflows and integrated Razorpay’s APIs, processing $𝟮𝟳𝟬𝗞+ in transactions for thousands of active users",
+    "Co-developed a 𝗳𝘂𝗹𝗹-𝘀𝘁𝗮𝗰𝗸 𝗦𝗮𝗮𝗦 platform using Next.js, Node.js, Typescript and Tailwind CSS that enabled 𝟵+ 𝘀𝗺𝗮𝗹𝗹 𝗯𝘂𝘀𝗶𝗻𝗲𝘀𝘀𝗲𝘀 to launch online storefronts - driving a 𝟱𝟳% 𝗮𝘃𝗲𝗿𝗮𝗴𝗲 𝗿𝗲𝘃𝗲𝗻𝘂𝗲 𝗶𝗻𝗰𝗿𝗲𝗮𝘀𝗲",
+    "Migrated backend from TiDB to AWS RDS (PostgreSQL) and built a role-based auth system (Java, Spring Boot, JWT) to eliminate third-party dependencies and gain control over user access and account data",
+    "Developed REST APIs for inventory, order management, and sales analytics improving seller 𝗲𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝘆 𝗯𝘆 ∼𝟰𝟱%",
+    "Engineered a full checkout flow with Razorpay integration including payment forms, success/failure states, and receipts - processing $𝟭𝟮𝟬𝗞+ in transactions across 𝟭,𝟬𝟬𝟬+ 𝘂𝘀𝗲𝗿𝘀",
     ]
   },
   {
@@ -144,10 +156,11 @@ const experiences = [
     iconBg: "#482e91",
     date: "May 2024 - Aug 2024",
     points: [
-    "Developed a 𝘄𝗲𝗯 𝗮𝗽𝗽 to showcase diverse use-cases of cloud microservices by layering demo APIs, boosting 𝗮𝗱𝗼𝗽𝘁𝗶𝗼𝗻 𝗿𝗮𝘁𝗲 by ∼𝟯𝟯%, using Next.js, TypeScript, and Tailwind CSS",
-    "Enabled seamless mobile loyalty and gift card management by integrating Apple pay, Google wallet APIs and developing a Java, Spring Boot service that issues mobile-ready digital gift cards",
+    "Developed a demo 𝘄𝗲𝗯 𝗮𝗽𝗽 (Next.js, Node.js, Typescript, Tailwind CSS) to showcase real-world use cases for enterprise clients integrating with platform APIs - contributing to ∼𝟯𝟯% 𝗮𝗱𝗼𝗽𝘁𝗶𝗼𝗻 𝗴𝗿𝗼𝘄𝘁𝗵",
+    "Integrated Apple Pay and Google Wallet into the app to simulate a real POS checkout experience, helping clients visualize how customers store and redeem gift cards",
+    "Built a Java, Spring Boot service to modify gift card API responses for mobile wallet support without backend changes",
     "Achieved 𝟵𝟲% 𝘁𝗲𝘀𝘁 𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 through comprehensive integration, unit (Jest), and e2e (Cypress) testing",
-    "Deployed the app on AWS by leveraging Docker, Kubernetes, and GitHub Actions for CI/CD",
+    "Deployed the app on AWS by leveraging Docker, Kubernetes (EKS), and GitHub Actions for CI/CD",
     ],
   },
   {
@@ -157,8 +170,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2022 - May 2024",
     points: [
-      "Applied 𝗮𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗺𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺𝘀 to multi-site 𝗳𝗠𝗥𝗜 datasets (over 𝟱𝟬𝟬 𝘀𝘂𝗯𝗷𝗲𝗰𝘁𝘀) discovering 𝗹𝗮𝘁𝗲𝗻𝘁 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 in typically 𝗱𝗶𝘀𝗰𝗮𝗿𝗱𝗲𝗱 data signals, potentially identifying new 𝘁𝗿𝗲𝗮𝘁𝗺𝗲𝗻𝘁 𝗽𝗮𝘁𝗵𝘄𝗮𝘆𝘀 𝗳𝗼𝗿 𝘀𝗰𝗵𝗶𝘇𝗼𝗽𝗵𝗿𝗲𝗻𝗶𝗮",
-      "Authored a 𝗿𝗲𝘀𝗲𝗮𝗿𝗰𝗵 𝗽𝗮𝗽𝗲𝗿 and presented it at several conferences, including the 𝟰𝟲𝘁𝗵 𝗔𝗻𝗻𝘂𝗮𝗹 𝗜𝗻𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗖𝗼𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝗼𝗳 𝘁𝗵𝗲 𝗜𝗘𝗘𝗘 𝗘𝗠𝗕𝗖 and the Undergraduate Research Conference",
+      "Applied advanced 𝗺𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺𝘀 (𝗜𝗖𝗔, 𝗣𝗖𝗔, 𝗚𝗟𝗠) to multi-site resting-state fMRI data using MATLAB and the GIFT toolbox, discovering patterns with potential to identify 𝗻𝗲𝘄 𝘁𝗿𝗲𝗮𝘁𝗺𝗲𝗻𝘁 𝗽𝗮𝘁𝗵𝘄𝗮𝘆𝘀 𝗳𝗼𝗿 𝘀𝗰𝗵𝗶𝘇𝗼𝗽𝗵𝗿𝗲𝗻𝗶𝗮",
+      "Authored and presented a 𝗳𝗶𝗿𝘀𝘁-𝗮𝘂𝘁𝗵𝗼𝗿 peer-reviewed paper published at the 𝟮𝟬𝟮𝟰 𝗜𝗘𝗘𝗘 𝗘𝗠𝗕𝗖; presented findings at EMBC and the Undergraduate Research Conference (Undergraduate Research Award)",
     ],
   },
 
@@ -211,27 +224,6 @@ const testimonials = [
 ];
 
 const projects = [
-  // {
-  //   name: "Our Secret Perfumes",
-  //   description:
-  //     "An e-commerce web application for a small business that resulted in a signicant increase in monthly order volume (from 80 to 210+) and significant enhancements to the company's market presence and sales growth.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "freelance",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: our_secret,
-  //   source_code_link: "https://github.com/Samk104/eMergeHubClient",
-  // },
   {
     name: "Meal In Budget",
     description:
@@ -339,4 +331,30 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+
+
+const research = [
+  {
+    name: "Beyond Artifacts: Rethinking Motion-Related Signals in Resting-State fMRI Analysis",
+    description:
+      "In this research, I explored how even the smallest head movements, often considered “noise” in brain scans might actually hold valuable information. Using brain imaging data from over 500 people, including both healthy individuals and those with schizophrenia, we found that patterns in these movements can reveal meaningful differences in brain connectivity. Our work challenges the common view that motion in brain scans should always be removed, and instead shows it could help us better understand brain function and mental health conditions. This work was published as a first-author paper at the 2024 IEEE EMBC, presented at multiple conferences, and recognized with an Undergraduate Research Award. These findings may help inform future approaches to diagnosing and treating schizophrenia.",
+    tags: [
+      {
+        name: "Machine Learning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MATLAB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Neuroimaging",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: paper,
+    source_code_link: "https://ieeexplore.ieee.org/document/10782518",
+  },
+]
+
+export { services, technologies, experiences, testimonials, projects, research };

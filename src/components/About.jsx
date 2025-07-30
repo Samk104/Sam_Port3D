@@ -47,12 +47,11 @@ const About = () => {
       variants={fadeIn("","",0.1,1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
     >
-    Innovative computer science graduate with a strong academic record, combining solid technical foundations with substantial research 
-    experience and over two years of hands-on software development. My journey spans from developing web and mobile applications in 
-    industry to conducting award-winning machine learning research in academia. I excel at rapid 
-    learning and innovative problem-solving across different domains, driven by my belief that learning is a continuous journey. 
-    With skills in multiple programming languages, frameworks, and cloud technologies, I bring adaptability and fresh ideas to 
-    collaborative teams. 
+   I’m an innovative computer science graduate with a strong academic foundation and over two years of hands-on software development experience. My journey cuts across industry and academia - from building web and mobile apps that power real-world products to publishing award-winning research in machine learning.<br /> <br />
+   But before all that, I was the kid who opened up calculators just to see what made them tick. If it moved, clicked, or lit up, I probably took it apart. That same instinct still drives me to explore how things work and make them work better.<br/> <br/>
+   I’m drawn to complex problems, the kind that demand rapid learning, creative thinking, and flexibility across domains. Whether I’m building applications, experimenting with AI, or collaborating with a team, I bring curiosity, adaptability, and a builder’s mindset. With experience across languages, frameworks, and cloud platforms, I’m always ready to jump in, learn fast, and build something meaningful.
+
+
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>

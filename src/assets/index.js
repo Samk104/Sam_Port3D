@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import ieee from "./ieee.svg"; // Added for research card
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -24,6 +25,7 @@ import dll from "./company/dll.png";
 import freelance from "./company/freelance.png"
 import ncrvoyix from "./company/ncrvoyix.png";
 import trends from "./company/trends.png";
+import safac from "./company/safac.webp"; // South Asian Folk Arts Council
 // import ourSecret from "./ourSecret.png";
 
 import our_secret from "./our_secret.png";
@@ -38,6 +40,8 @@ import armin from "./armin.png";
 import melissa from "./melissa.png";
 import grant from "./grant.jpeg";
 
+import paper from "./paper.png"; // Research paper image
+
 export {
   logo,
   backend,
@@ -45,6 +49,7 @@ export {
   mobile,
   web,
   github,
+  ieee,
   menu,
   close,
   css,
@@ -62,6 +67,7 @@ export {
   nextjs,
   dll,
   // ourSecret,
+  safac,
   freelance,
   ncrvoyix,
   trends,
@@ -75,4 +81,5 @@ export {
   armin,
   melissa,
   grant,
+  paper,
 };
